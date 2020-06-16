@@ -2,7 +2,7 @@
 
 
 class School
-  attr_accessor :roster
+  attr_accessor :roster, :name
 
  def initialize(name)
    @roster = {}
@@ -10,14 +10,14 @@ class School
 end
 
 def add_student(student_name, grade)
-
-  @roster.each do |key, value|
-    if @roster.include?(grade)
-        @roster[key] << student_name
-    else
+     #@roster[grade] = []
+  #@roster.each do |key, value|
+    #if @roster.include?(grade)
+      #  @roster[key] << student_name
+    #else
     @roster[grade] = []
     @roster[grade] << student_name
-  end
-end
+#  end
+#end
 end
 end
