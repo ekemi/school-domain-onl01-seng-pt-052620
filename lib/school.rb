@@ -20,3 +20,4 @@ def sort
   @roster.each |key, value|
   key, value.sorted
 end
+end
