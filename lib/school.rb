@@ -18,6 +18,7 @@ def grade(grade)
 end
 def sort
   @roster.each |key, value|
-  key, value.sorted
+  key
+  value.sorted
 end
 end
